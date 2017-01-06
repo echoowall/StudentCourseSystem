@@ -4,6 +4,8 @@
 
 这是本人就读于TJPU在Java Web实训中写的一个小Demo。
 
+该程序遵守GPLv3开源协议。
+
 如果要运行这个项目，首先要创建一个"springdemo"数据库，注意选择utf-8格式，然后将springdemo.sql导入到数据库中。
 
 最好使用最新版本的 IntelliJ IDEA, JDK 1.8.x，还有Tomcat8.x，mysql5.5+。
