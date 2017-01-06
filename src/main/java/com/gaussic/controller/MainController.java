@@ -12,12 +12,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import javax.servlet.ServletRegistration;
-import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * Created by dzkan on 2016/3/8.
+ * Created by EchooWall on 2017/1/1.
  */
 @Controller
 public class MainController {

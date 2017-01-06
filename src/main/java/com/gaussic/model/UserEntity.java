@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Collection;
 
 /**
- * Created by dzkan on 2016/3/8.
+ * Created by EchooWall on 2017/1/1.
  */
 @Entity
 @Table(name = "user", schema = "springdemo", catalog = "")
@@ -14,7 +14,7 @@ public class UserEntity {
     private String password;
     private String firstName;
     private String lastName;
-    private Collection<BlogEntity> blogsById;
+
 
     @Id
     @Column(name = "id", nullable = false)
@@ -92,12 +92,6 @@ public class UserEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "userByUserId")
-    public Collection<BlogEntity> getBlogsById() {
-        return blogsById;
-    }
 
-    public void setBlogsById(Collection<BlogEntity> blogsById) {
-        this.blogsById = blogsById;
-    }
+
 }

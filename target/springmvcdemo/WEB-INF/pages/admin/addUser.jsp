@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Starter</title>
+    <title>学生选课管理系统</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -121,7 +121,7 @@ desired effect
                         <div class="form-group">
                             <label for="firstName" class="col-sm-2 control-label">选课</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="firstName" placeholder="请输入选课1" name="firstName">
+                                <input type="email" class="form-control" id="firstName" placeholder="请输入选课" name="firstName">
                             </div>
                         </div>
                         <div class="form-group">
